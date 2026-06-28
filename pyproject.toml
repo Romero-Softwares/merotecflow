@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merotec-autoflow"
+version = "0.1.0"
+description = "A tiny Python library for composing observable automation flows."
+readme = "README.md"
+requires-python = ">=3.9"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Merotec" }
+]
+keywords = ["automation", "workflow", "pipeline", "orchestration"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/Romero-Softwares/merotecflow"
+Repository = "https://github.com/Romero-Softwares/merotecflow"
+Issues = "https://github.com/Romero-Softwares/merotecflow/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
